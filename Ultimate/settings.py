@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['road-to-ultimate.herokuapp.com']
 
 INSTALLED_APPS = [
     'main.apps.MainConfig',
+    'schematic_designer.apps.SchematicDesignerConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
