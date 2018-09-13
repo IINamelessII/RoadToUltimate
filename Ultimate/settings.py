@@ -25,14 +25,16 @@ SECRET_KEY = 'pk2%sy7wcg$ji8c$$9h7d@!s2^ojh3srpbm5oj@4b6txl-hm(j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['road-to-ultimate.herokuapp.com']
+ALLOWED_HOSTS = ['road-to-ultimate.herokuapp.com',
+                 '127.0.0.1'
+]
 
 
 # Application definition
 
 INSTALLED_APPS = [
     'main.apps.MainConfig',
-    'schematic_designer.apps.SchematicDesignerConfig',
+    'palevo.apps.PalevoConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

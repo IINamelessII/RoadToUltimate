@@ -1,0 +1,9 @@
+{% if solutions %}
+    <ul>
+    {% for solution in solutions %}
+        <li><a href="{% url 'solution' solution.id %}">{{ solution.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No solutions are available.</p>
+{% endif %}
