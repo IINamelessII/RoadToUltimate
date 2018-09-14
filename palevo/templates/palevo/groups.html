@@ -1,0 +1,9 @@
+{% if groups %}
+    <ul>
+    {% for group in groups %}
+        <li><a href="{% url 'group' group.id %}">{{ group.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No groups are available.</p>
+{% endif %}
