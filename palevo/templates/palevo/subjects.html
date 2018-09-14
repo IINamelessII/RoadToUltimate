@@ -1,3 +1,13 @@
+{% extends "palevo/base.html" %}
+{% load static %}
+
+
+{% block head %}
+{% endblock %}
+
+
+{% block body %}
+
 {% if subjects %}
     <ul>
     {% for subject in subjects %}
@@ -7,3 +17,5 @@
 {% else %}
     <p>No subjects are available.</p>
 {% endif %}
+
+{% endblock %}

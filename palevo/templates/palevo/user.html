@@ -1,5 +1,17 @@
+{% extends "palevo/base.html" %}
+{% load static %}
+
+
+{% block head %}
+{% endblock %}
+
+
+{% block body %}
+
 {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
 
 {{ user.name }}
 {{ user.descr }}
 {{ user.group }}
+
+{% endblock %}
