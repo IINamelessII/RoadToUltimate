@@ -1,9 +1,13 @@
 from django.urls import path
 from . import views
+import sys
+sys.path.append('..')
+from palevo import views as views_palevo
 
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('palevo/', views_palevo.index, name='go2Palevo'),
     # path('<int:movie_id>', views.movie),
     # path('genres/<int:genre_id>', views.genre, name='genre'),
     # path('genres', views.genres, name='genres'),
