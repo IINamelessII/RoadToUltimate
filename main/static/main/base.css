@@ -17,4 +17,40 @@ audio {
   width: 300px;
   height: 50px;
   border-radius: 25px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 32px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+}
+
+p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 32px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  margin: 5px;
+}
+
+a {
+  font-family: "Roboto Mono", monospace;
+  font-size: 32px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  color: #fff;
+  margin: 5px;
 }
