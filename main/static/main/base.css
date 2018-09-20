@@ -1,0 +1,20 @@
+head {
+  display: inline-block;
+}
+
+body {
+  background: url("images/0.jpg") no-repeat;
+  font-family: Verdana;
+  font-size: 1em;
+}
+
+audio {
+  width: 600px;
+  height: 50px;
+}
+
+.NavBut {
+  width: 300px;
+  height: 50px;
+  border-radius: 25px;
+}

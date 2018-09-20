@@ -7,7 +7,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{% block title %}{% endblock %}</title>
-  <!-- <link rel="stylesheet" href="{% static 'main/base.css' %}"> -->
+  <link rel="stylesheet" href="{% static 'main/base.css' %}">
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="{% static 'main/app.js' %}"></script>
+  <div>
+    <h1>Press this buttons to get some cute pics!</h1>
+    <button onclick="prev()" class="NavBut"> Prev </button>
+    <button onclick="next()" class="NavBut"> Next </button>
+    <br>
+    <audio controls>
+      <source src="{% static 'main/audio/0.ogg' %}" type="audio/ogg">
+      <source src="{% static 'main/audio/0.mp3' %}" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
   {% block head %}
   {% endblock %}
 </head>
