@@ -1,11 +1,9 @@
-.movie {
-  display: block;
-  color: #333;
-  font-variant: small-caps;
-  font-size: 24px;
-  text-decoration: none;
+p {
+  display: inline-block;
 }
 
-a:hover {
-  color : red;
+body {
+  background: url("images/0.jpg") no-repeat;
+  font-family: Verdana;
+  font-size: 1em;
 }

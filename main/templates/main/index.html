@@ -7,10 +7,20 @@
 
 {% block head %}
   <link rel="stylesheet" href="{% static 'main/index.css' %}">
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="{% static 'main/app.js' %}"></script>
 {% endblock %}
 
 {% block body %}
 <p>It is coming...</p>
 <a href="{% url 'go2Palevo' %}">Palevo</a>
 <p>Here another app</p>
+<div>
+  <button onclick="prev()"> Prev </button>
+  <button onclick="next()"> Next </button>
+</div>
+<script src="{% static 'app.js' %}"></script>
 {% endblock %}
